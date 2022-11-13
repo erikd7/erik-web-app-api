@@ -258,30 +258,26 @@ class ResumeInfo(Resource):
         ],
         "experienceList": [
             {
-                "organization":
-                "Northwestern Mutual",
-                "location":
-                "Remote and Milwaukee, WI",
-                "title":
-                "Software Engineer II",
-                "start":
-                "2021",
-                "description":
-                "Full-stack engineer working in 6-member Agile team to create wire transfer management web app using primarily React, Node, Jest, and SQL with GitLab. Worked on all aspects of the SDLC, including unit testing, DevOps and pipeline management, release engineering, and support. Also served as team's embedded Scrum Master."
+                "organization": "Tindoori Labs",
+                "location": "Remote and Pittsburgh, PA",
+                "title": "Lead Backend Engineer",
+                "start": "2022",
+                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
             },
             {
-                "organization":
-                "Epic",
-                "location":
-                "Madison, WI",
-                "title":
-                "Software Engineer and Project Manager",
-                "start":
-                "2018",
-                "end":
-                "2021",
-                "description":
-                "As a Software Developer: Led design and development of customer-facing web app for supporting software implementation planning. Used SQL, C#, JS Vue, and HTML/CSS with GitLab. Coordinated all parts of the SDLC, from initial scoping and design through development, testing, go-live, and continuous improvement.\nAs a Project Manager: responsible for configuring large-scale software suite for healthcare organizations. Managed 20-member team. Member of Epic’s Infection Control Product Leads team during the COVID-19 response."
+                "organization": "Northwestern Mutual",
+                "location": "Remote and Milwaukee, WI",
+                "title": "Software Engineer II",
+                "start": "2021",
+                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
+            },
+            {
+                "organization": "Epic",
+                "location": "Madison, WI",
+                "title": "Software Engineer and Project Manager",
+                "start": "2018",
+                "end": "2021",
+                "description": "Hired as an Implementation Engineer responsible for leading a 20-member team and installing Epic’s large software suite for healthcare organizations. Member of Epic’s Infection Control Product Leads team during the COVID-19 response. Took on additional responsibilities and then shifted to full-time development, where I led design and dev of a module of Epic’s web app for managing customer installs. Used SQL, C#, Vue.js, and HTML/CSS."
             },
             {
                 "organization":
