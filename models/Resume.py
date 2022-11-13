@@ -57,7 +57,7 @@ class ResumeInfo(Resource):
         "skillsCore": [
             {
                 "name": "JavaScript",
-                "details": "2 years professional experience",
+                "details": "3 years professional experience",
                 "level": 3,
             },
             {
@@ -68,22 +68,22 @@ class ResumeInfo(Resource):
             },
             {
                 "name": "React.js",
-                "details": "1 year professional experience",
+                "details": "2 years professional experience",
                 "level": 2,
             },
             {
                 "name": "Node.js & npm",
-                "details": "2 years professional experience",
+                "details": "3 years professional experience",
                 "level": 2,
             },
             {
                 "name": "SQL (Sequel Server & Postgres)",
-                "details": "5 years university and professional experience",
+                "details": "6 years university and professional experience",
                 "level": 3,
             },
             {
                 "name": "HTML & CSS",
-                "details": "2 years professional experience",
+                "details": "3 years professional experience",
                 "level": 3,
             },
             {
@@ -99,7 +99,7 @@ class ResumeInfo(Resource):
             {
                 "name": "Git",
                 "details":
-                "2 years professional experience and independent work  ",
+                "4 years professional experience and independent work  ",
                 "level": 3,
             },
         ],
