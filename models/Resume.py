@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import request, jsonify
 from flask_restful import Resource
 from middleware import checkAuth
 
@@ -49,8 +49,7 @@ class ResumeInfo(Resource):
             },
             {
                 "title": "Docker",
-                "tooltip":
-                "My Docker profile - including the containers for this app",
+                "tooltip": "My Docker profile",
                 "url": "https://hub.docker.com/u/normalone7",
             },
         ],
@@ -72,7 +71,7 @@ class ResumeInfo(Resource):
                 "level": 2,
             },
             {
-                "name": "Node.js & npm",
+                "name": "Node.js",
                 "details": "3 years professional experience",
                 "level": 2,
             },
@@ -82,9 +81,23 @@ class ResumeInfo(Resource):
                 "level": 3,
             },
             {
+                "name": "MongoDB",
+                "details": "1 year professional experience",
+                "level": 2,
+            },
+            {
                 "name": "HTML & CSS",
                 "details": "3 years professional experience",
                 "level": 3,
+            },
+            {
+                "name": "Docker",
+                "details":
+                "2 years professional experience and independent work",
+            },
+            {
+                "name": "AWS",
+                "details": "2 years professional experience including S3, EC2, RDS, Lambda, API Gateway",
             },
             {
                 "name": "Python",
@@ -107,13 +120,38 @@ class ResumeInfo(Resource):
             {
                 "name": "Axios.js",
                 "details":
-                "2 years professional experience and independent work",
+                "3 years professional experience and independent work",
                 "level": 2
             },
             {
                 "name": "Express.js",
                 "details":
                 "2 years professional experience and independent work",
+                "level": 2
+            },
+            {
+                "name": "Passport.js",
+                "details": "1 year professional experience and independent work",
+                "level": 2
+            },
+             {
+                "name": "Socket.io",
+                "details": "1 year professional experience and independent work",
+                "level": 2
+            },
+            {
+                "name": "Jest",
+                "details": "1 year professional experience",
+                "level": 2,
+            },
+            {
+                "name": "npm",
+                "details": "3 years professional experience",
+                "level": 3
+            },
+            {
+                "name": "CI/CD",
+                "details": "3 years professional experience",
                 "level": 2
             },
             {
@@ -125,11 +163,6 @@ class ResumeInfo(Resource):
                 "name": "pip",
                 "details": "1 year independent work",
                 "level": 2
-            },
-            {
-                "name": "Jest",
-                "details": "1 year professional experience",
-                "level": 2,
             },
             {
                 "name": "Bootstrap",
@@ -153,25 +186,14 @@ class ResumeInfo(Resource):
                 "level": 1,
             },
             {
-                "name": "JSON",
+                "name": "JSON & JWT",
                 "details":
-                "3 years professional experience and independent work",
+                "4 years professional experience and independent work",
                 "level": 3,
             },
             {
-                "name": "Docker",
-                "details":
-                "1 year professional experience and independent work",
-            },
-            {
-                "name":
-                "AWS",
-                "details":
-                "1 year professional experience including S3, CloudWatch, lambdas, serverless functions",
-            },
-            {
                 "name": "Kubernetes",
-                "details": "1 year limited professional experience",
+                "details": "1 year professional experience",
             },
             {
                 "name": "Visual Studio Pro",
@@ -236,30 +258,26 @@ class ResumeInfo(Resource):
         ],
         "experienceList": [
             {
-                "organization":
-                "Northwestern Mutual",
-                "location":
-                "Remote and Milwaukee, WI",
-                "title":
-                "Software Engineer II",
-                "start":
-                "2021",
-                "description":
-                "Full-stack engineer working in 6-member Agile team to create wire transfer management web app using primarily React, Node, Jest, and SQL with GitLab. Worked on all aspects of the SDLC, including unit testing, DevOps and pipeline management, release engineering, and support. Also served as team's embedded Scrum Master."
+                "organization": "Tindoori Labs",
+                "location": "Remote and Pittsburgh, PA",
+                "title": "Lead Backend Engineer",
+                "start": "2022",
+                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
             },
             {
-                "organization":
-                "Epic",
-                "location":
-                "Madison, WI",
-                "title":
-                "Software Engineer and Project Manager",
-                "start":
-                "2018",
-                "end":
-                "2021",
-                "description":
-                "As a Software Developer: Led design and development of customer-facing web app for supporting software implementation planning. Used SQL, C#, JS Vue, and HTML/CSS with GitLab. Coordinated all parts of the SDLC, from initial scoping and design through development, testing, go-live, and continuous improvement.\nAs a Project Manager: responsible for configuring large-scale software suite for healthcare organizations. Managed 20-member team. Member of Epic’s Infection Control Product Leads team during the COVID-19 response."
+                "organization": "Northwestern Mutual",
+                "location": "Remote and Milwaukee, WI",
+                "title": "Software Engineer II",
+                "start": "2021",
+                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
+            },
+            {
+                "organization": "Epic",
+                "location": "Madison, WI",
+                "title": "Software Engineer and Project Manager",
+                "start": "2018",
+                "end": "2021",
+                "description": "Hired as an Implementation Engineer responsible for leading a 20-member team and installing Epic’s large software suite for healthcare organizations. Member of Epic’s Infection Control Product Leads team during the COVID-19 response. Took on additional responsibilities and then shifted to full-time development, where I led design and dev of a module of Epic’s web app for managing customer installs. Used SQL, C#, Vue.js, and HTML/CSS."
             },
             {
                 "organization":
