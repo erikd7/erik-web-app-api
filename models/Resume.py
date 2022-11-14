@@ -262,7 +262,7 @@ class ResumeInfo(Resource):
                 "location": "Remote and Pittsburgh, PA",
                 "title": "Lead Backend Engineer",
                 "start": "2022",
-                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
+                "description": "Designed, developed, and tested the back end for a language learning and matchmaking app. Worked with founder and lead frontend engineer to release the app to the App Store. Stack includes PostgreSQL, MongoDB, and Node.js running in Docker on AWS."
             },
             {
                 "organization": "Northwestern Mutual",
