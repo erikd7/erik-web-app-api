@@ -45,7 +45,7 @@ class ResumeInfo(Resource):
             {
                 "title": "GitHub",
                 "tooltip": "My GitHub profile - including this repo",
-                "url": "https://github.com/normalone7",
+                "url": "https://github.com/erikd7",
             },
             {
                 "title": "Docker",
@@ -262,7 +262,7 @@ class ResumeInfo(Resource):
                 "location": "Remote and Pittsburgh, PA",
                 "title": "Lead Backend Engineer",
                 "start": "2022",
-                "description": "Designed, developed, and tested the back end for a language learning and matchmaking app. Worked with founder and lead frontend engineer to release the app to the App Store. Stack includes PostgreSQL, MongoDB, and Node.js running in Docker on AWS."
+                "description": "Designed, developed, and tested the back end for a language learning and matchmaking app. Working with founder and lead frontend engineer to release the app to the App Store. Stack includes PostgreSQL, MongoDB, and Node.js running in Docker on AWS."
             },
             {
                 "organization": "Northwestern Mutual",
