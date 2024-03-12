@@ -20,7 +20,7 @@ class ResumeInfo(Resource):
             },
             {
                 "label": "location",
-                "info": "Madison, WI & Remote",
+                "info": "Portland, ME & Remote",
             },
         ],
         "educationList": [
@@ -58,6 +58,11 @@ class ResumeInfo(Resource):
                 "name": "JavaScript",
                 "details": "3 years professional experience",
                 "level": 3,
+            },
+            {
+                "name": "TypeScript",
+                "details": "2 years professional experience",
+                "level": 2,
             },
             {
                 "name": "Vue.js",
@@ -258,18 +263,31 @@ class ResumeInfo(Resource):
         ],
         "experienceList": [
             {
+                "organization": "Northwestern Mutual",
+                "location": "Remote",
+                "title": "Senior Software Engineer",
+                "start": "2021",
+                "description": [
+                    'Created wire transfer app that processed over $68 billion in transactions in 2023',
+                    'Supported and enhanced bank services app that manages over 5.5 million bank accounts',
+                    'Successfully led wire transfer application through multiple internal and external audits required for top-tier applications',
+                    'Reduced lead time for change by transforming legacy pipelines into zero-touch CI/CD pipeline',
+                    'As a senior engineer and embedded Scrum Master, led Agile team in all aspects of SDLC, including design, train-wide planning, coding, automated unit and regression testing, and ongoing support',
+                    'Hired as Level 2 (Associate) engineer and promoted to Level 4 (Senior) engineer'
+                ],
+                "coreStack": ['PostgreSQL', 'Node', 'React', 'Docker', 'Kube', 'AWS']
+            },
+            {
                 "organization": "Tindoori Labs",
                 "location": "Remote and Pittsburgh, PA",
                 "title": "Lead Backend Engineer",
                 "start": "2022",
-                "description": "Designed, developed, and tested the back end for a language learning and matchmaking app. Working with founder and lead frontend engineer to release the app to the App Store. Stack includes PostgreSQL, MongoDB, and Node.js running in Docker on AWS."
-            },
-            {
-                "organization": "Northwestern Mutual",
-                "location": "Remote and Milwaukee, WI",
-                "title": "Software Engineer II",
-                "start": "2021",
-                "description": "Full stack engineer responsible for designing, writing, testing, and supporting code for NM’s Enterprise Payments Network. Primary focus on apps for insurance payouts to clients and home office management of wire transfers. Stack includes PostgreSQL, Node.js, and React.js running in AWS with Kubernetes. Also led the team’s planning and allocation as Agile Scrum Master."
+                "end": "2023",
+                "description": [
+                    'Designed, developed, and tested a language learning and matchmaking app',
+                    'Deployed Production environment on AWS and integrated with iOS frontend'
+                ],
+                "coreStack": ['PostgreSQL', 'MongoDB', 'Node', 'Docker', 'Kube', 'AWS']
             },
             {
                 "organization": "Epic",
@@ -277,33 +295,12 @@ class ResumeInfo(Resource):
                 "title": "Software Engineer and Project Manager",
                 "start": "2018",
                 "end": "2021",
-                "description": "Hired as an Implementation Engineer responsible for leading a 20-member team and installing Epic’s large software suite for healthcare organizations. Member of Epic’s Infection Control Product Leads team during the COVID-19 response. Took on additional responsibilities and then shifted to full-time development, where I led design and dev of a module of Epic’s web app for managing customer installs. Used SQL, C#, Vue.js, and HTML/CSS."
-            },
-            {
-                "organization":
-                "Wolverine Advanced Materials",
-                "location":
-                "Blacksburg, VA",
-                "title":
-                "Industrial Engineer",
-                "start":
-                "Summer 2017",
-                "end":
-                "Winter 2017",
-                "description":
-                "Used lean principles, data analysis, and simulation to implement a just-in-time model to decrease inventory while increasing manufacturing throughput."
-            },
-            {
-                "organization":
-                "Siemens-Sivantos Group",
-                "location":
-                "New Brunswick, NJ",
-                "title":
-                "Industrial Engineer",
-                "startAndEnd":
-                "Summer 2016",
-                "description":
-                "Led hearing aid battery failure analysis project, including experimental design, hardware testing, data acquisition and wrangling, analysis, and reporting to management."
+                "description": [
+                    'Led design, development, and testing as Module Lead of Epic’s web app for managing customer installs, with over 10,000 internal and external users',
+                    "Managed 20-member subteam in Epic's then-biggest electronic health record install",
+                    "Member of Epic’s Infection Control Product Leads team during the COVID-19 response. Designed and built Epic’s COVID-19 dashboard, used by all live organizations starting March 2020."
+                ],
+                "coreStack": ['SQL Server', 'C#', 'Vue', 'Epic Hosting']
             },
         ],
     }
